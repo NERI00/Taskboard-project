@@ -13,6 +13,7 @@ const addNote = () => {
     let newId = Math.floor(Math.random() * 10000)
     let newNote = {
         id: newId,
+        
         text: textInputElement.value,
         date: dateInputElement.value,
         time: timeInputElement.value
