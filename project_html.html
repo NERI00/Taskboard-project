@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="project_css.css">
+    <title>Taskboard project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body onload="loadNotes()">
+
+    <div id="main-title"><img src="imgs/title.png">
+
+    <div id="input-container">
+        <form id="main-container">
+            <div id="main-form">
+                <textarea name="note-text-input" id="text-box" placeholder="Enter Your Note text here" rows="3"></textarea>
+                <br>
+                <div id="time-and-date-input"></div>
+                <label for="date"><strong>Select date:</strong></label>
+                <input type="date" name="date" id="date-box"><br><br>
+                <label for="time"><strong>Select time:</strong></label>
+                <input type="time" name="time" id="time-box">
+                <br>
+                <button type="button" id="add-button" class="btn btn-primary" onclick="addNote()">Add Note</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="note">
+    </div>
+
+    </div>
+
+</body>
+
+<script src="project_js.js"></script>
+
+</html>

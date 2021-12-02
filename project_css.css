@@ -1,0 +1,146 @@
+body {
+    background-image: url(imgs/tile.jpg);
+    background-repeat: repeat;
+}
+
+img {
+    margin: 40px;
+}
+
+.note {
+    width: 220px;
+    height: 280px;
+    padding-top: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    overflow: auto;
+    background-image: url(imgs/notebg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.time-date-output {
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 10pt;
+}
+
+#main-container {
+    background-image: url("imgs/formbg.jpg");
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    min-height: 160px;
+    display: block;
+    text-align: center;
+    border: 8px solid black;
+    border-radius: 8px;
+}
+
+#main-title {
+    text-align: center;
+}
+
+#main-form {
+    margin: auto;
+    min-width: 285px;
+}
+
+#text-box {
+    width: 400px;
+    height: auto;
+    padding: 18px 38px;
+    border: 0px solid #ccc;
+    background-color: #f8f8f800;
+    resize: none;
+}
+
+#date-box {
+    margin: 1px;
+}
+
+#time-box {
+    margin: 7px;
+}
+
+#add-button {
+    margin: 15px;
+}
+
+#text-output {
+    height: 145px;
+    width: 170px;
+    margin-left: 10px;
+    margin-top: 7px;
+    font-size: 12pt;
+    overflow: auto;
+}
+
+#note {
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+    text-align: left;
+}
+
+#delete-note {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 165px;
+    position: relative;
+    float: left;
+    top: -85%;
+    color: red;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
